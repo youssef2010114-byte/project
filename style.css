@@ -170,6 +170,24 @@ margin-bottom: 20px;
     nav{
         margin-top: 8px;
     }
+    /* التعديل الجديد */
+#contact p {
+    font-size: 1.1rem;
+    margin: 15px 0;
+    color: #fff;
+    
+    /* السحر هنا */
+    display: flex;
+    justify-content: center; /* بيوسط العناصر بالعرض */
+    align-items: center;    /* بيوسط العناصر بالطول */
+    gap: 10px;              /* بيعمل مسافة ثابتة بين الكلمة والأيقونة والإيميل */
+}
+
+#contact p a {
+    margin: 0; /* شيل المارجن القديم عشان ميبوظش المحاذاة */
+}
+
 }
     
+
 
