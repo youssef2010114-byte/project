@@ -136,6 +136,7 @@ margin-bottom: 20px;
     font-size: 1.1rem;
     margin: 10px 0;
     color: #fff;
+    display:block;
 }
 #contact strong{
     color: #4da3ff;
@@ -177,5 +178,6 @@ margin-bottom: 20px;
     }
 }
     
+
 
 
