@@ -127,6 +127,12 @@ margin-bottom: 20px;
     background: #1e2a38;
     color: #fff;
     text-align: center;
+    display: flex; /* ده السحر اللي بيخليهم جنب بعض */
+    justify-content: center; /* بيوسطنهم في نص الصفحة */
+    align-items: center; /* بيخلي مستواهم الأفقي واحد */
+    gap: 30px; /* بيسيب مسافة احترافية بين كل واحدة والتانية */
+    flex-wrap: wrap; /* مهم جداً عشان لو فتحت من موبايل ينزلوا تحت بعض وما يظهروش بشكل وحش */
+    margin-top: 20px;
 }
 #contact h2{
     font-size: 2rem;
@@ -180,6 +186,7 @@ margin-bottom: 20px;
     }
 }
     
+
 
 
 
