@@ -157,6 +157,29 @@ margin-bottom: 20px;
     font-size: 1.2rem;
     vertical-align: middle;
 }
+#contact {
+  display: flex;
+  flex-direction: column; /* يخلي السطور فوق بعضها */
+  align-items: center;    /* يوسط السطور في نص الشاشة */
+  gap: 15px;              /* مسافة بين سطر الإيميل وسطر الجيت هاب */
+  padding: 40px;
+}
+
+.contact-row {
+  display: flex;          /* يخلي محتويات السطر الواحد جنب بعض */
+  align-items: center;    /* يوسط الأيقونة مع الكلام رأسياً */
+  gap: 10px;              /* مسافة بين الكلمة والأيقونة والرابط */
+}
+
+.contact-row i {
+  color: #58a6ff;         /* تلوين الأيقونات بالأزرق */
+}
+
+.contact-row a {
+  text-decoration: none;
+  color: inherit;         /* ياخد نفس لون النص اللي حوله */
+}
+
 @media (max-width:780px) {
     header{
         padding: 10px 20px; 
@@ -177,5 +200,6 @@ margin-bottom: 20px;
     }
 }
     
+
 
 
