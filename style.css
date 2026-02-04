@@ -123,52 +123,55 @@ margin-bottom: 20px;
     color: #555;
 }
 
-    #contact {
-    padding: 80px 20px;
+    
+
+#contact {
+    padding: 80px 50px;
     background: #1e2a38;
     color: #fff;
     text-align: center;
-    display: flex;
-    flex-direction: column; /* يخليهم فوق بعض دايمًا */
-    align-items: center;    /* يوسطهم في نص الشاشة */
-    gap: 25px;              /* المسافة بين كل سطر والتاني */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px; /* قللت المسافة شوية عشان يبقوا متناسقين فوق بعض */
+    margin-top: 20px;
 }
 
+/* تعديل بسيط عشان الـ h2 ياخد مساحة لوحده فوق */
 #contact h2 {
-    font-size: 2rem;
+    font-size: 2.5rem; /* كبرت الخط شوية للعنوان */
+    margin-bottom: 20px;
     color: #4da3ff;
-    margin-bottom: 10px;
+    width: 100%; /* عشان يضمن إنه واخد السطر لوحده */
 }
 
-/* التنسيق الخاص بكل سطر (أيقونة + نص) */
-.contact-row {
+#contact p , #contact a {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #fff;
     display: flex;
-    flex-direction: column; /* يخلي كلمة Email فوق الإيميل نفسه زي الصورة */
-    align-items: center;
-    gap: 8px;
+    gap: 10px;      /* المسافة بين العناصر */
 }
-
-.contact-row i {
+}
+#contact strong{
     color: #4da3ff;
-    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 5px;
 }
-
-.contact-row a {
+#contact a{
     color: #fff;
     text-decoration: none;
-    font-size: 1.1rem;
-    transition: 0.3s;
-}
+    transition: color 0.3s;
 
-.contact-row a:hover {
+}
+#contact a :hover{
+    color: #6c5ce7;
+}
+#contact i{
     color: #4da3ff;
-}
-
-/* تنسيق خاص للواتساب عشان يظهر جنب الأيقونة بالظبط */
-.whatsapp-row {
-    flex-direction: row !important; 
-    gap: 12px;
-    margin-top: 10px;
+    margin-right: 8px;
+    font-size: 1.2rem;
+    vertical-align: middle;
 }
 
 @media (max-width:780px) {
@@ -214,6 +217,7 @@ margin-bottom: 20px;
 
 }
     
+
 
 
 
