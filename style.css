@@ -151,6 +151,43 @@ margin-bottom: 20px;
     font-size: 1.2rem;
     vertical-align: middle;
 }
+.contact-box {
+  display: flex;
+  justify-content: center; /* يوسّط المربع في الصفحة */
+  margin-top: 20px;
+}
+
+.whatsapp-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* المسافة بين الأيقونة والرقم */
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #25D366, #1ebe5d);
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.whatsapp-btn .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background: #fff; /* خلفية الأيقونة */
+  color: #25D366;
+  border-radius: 50%; /* دائرة */
+  font-size: 1.4rem;
+}
+
+.whatsapp-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+} 
 @media (max-width:780px) {
     header{
         padding: 10px 20px;
@@ -178,6 +215,7 @@ margin-bottom: 20px;
     }
 }
     
+
 
 
 
