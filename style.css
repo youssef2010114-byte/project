@@ -122,22 +122,27 @@ margin-bottom: 20px;
     line-height: 1.8;
     color: #555;
 }
-#contact{
+#contact {
     padding: 80px 50px;
     background: #1e2a38;
     color: #fff;
     text-align: center;
-    display: flex; /* ده السحر اللي بيخليهم جنب بعض */
-    justify-content: center; /* بيوسطنهم في نص الصفحة */
-    align-items: center; /* بيخلي مستواهم الأفقي واحد */
-    gap: 30px; /* بيسيب مسافة احترافية بين كل واحدة والتانية */
-    flex-wrap: wrap; /* مهم جداً عشان لو فتحت من موبايل ينزلوا تحت بعض وما يظهروش بشكل وحش */
+    display: flex; 
+    flex-direction: column; /* ده السطر اللي هيخليهم فوق بعض دائماً */
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px; /* قللت المسافة شوية عشان يبقوا متناسقين فوق بعض */
     margin-top: 20px;
 }
-#contact h2{
-    font-size: 2rem;
+
+/* تعديل بسيط عشان الـ h2 ياخد مساحة لوحده فوق */
+#contact h2 {
+    font-size: 2.5rem; /* كبرت الخط شوية للعنوان */
     margin-bottom: 20px;
+    color: #4da3ff;
+    width: 100%; /* عشان يضمن إنه واخد السطر لوحده */
 }
+
 #contact p , #contact a {
     font-size: 1.1rem;
     margin: 10px 0;
@@ -209,6 +214,7 @@ margin-bottom: 20px;
 
 }
     
+
 
 
 
