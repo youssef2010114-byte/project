@@ -122,7 +122,6 @@ margin-bottom: 20px;
     line-height: 1.8;
     color: #555;
 }
-#contact{
     padding: 80px 50px;
     background: #1e2a38;
     color: #fff;
@@ -165,7 +164,8 @@ margin-bottom: 20px;
     margin-right: 8px;
     font-size: 1.2rem;
     vertical-align: middle;
-}
+
+
 @media (max-width:780px) {
     header{
         padding: 10px 20px; 
@@ -186,6 +186,7 @@ margin-bottom: 20px;
     }
 }
     
+
 
 
 
