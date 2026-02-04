@@ -127,6 +127,12 @@ margin-bottom: 20px;
     background: #1e2a38;
     color: #fff;
     text-align: center;
+    display: flex; /* ده السحر اللي بيخليهم جنب بعض */
+    justify-content: center; /* بيوسطنهم في نص الصفحة */
+    align-items: center; /* بيخلي مستواهم الأفقي واحد */
+    gap: 30px; /* بيسيب مسافة احترافية بين كل واحدة والتانية */
+    flex-wrap: wrap; /* مهم جداً عشان لو فتحت من موبايل ينزلوا تحت بعض وما يظهروش بشكل وحش */
+    margin-top: 20px;
 }
 #contact h2{
     font-size: 2rem;
@@ -136,6 +142,9 @@ margin-bottom: 20px;
     font-size: 1.1rem;
     margin: 10px 0;
     color: #fff;
+    display: flex;
+    gap: 10px;      /* المسافة بين العناصر */
+}
 }
 #contact strong{
     color: #4da3ff;
@@ -157,7 +166,25 @@ margin-bottom: 20px;
     font-size: 1.2rem;
     vertical-align: middle;
 }
-#contact {
+@media (max-width:780px) {
+    header{
+        padding: 10px 20px; 
+        flex-direction: column;
+        align-items: center;
+
+    }
+    header h2{
+        font-size: 1.5rem;
+    }
+    nav a {
+        font-size: 0.9rem;
+        margin: 5px 10px;
+    }
+    
+    nav{
+        margin-top: 8px;
+    }
+    #contact {
   display: flex;
   flex-direction: column; /* يخلي السطور فوق بعضها */
   align-items: center;    /* يوسط السطور في نص الشاشة */
@@ -180,26 +207,9 @@ margin-bottom: 20px;
   color: inherit;         /* ياخد نفس لون النص اللي حوله */
 }
 
-@media (max-width:780px) {
-    header{
-        padding: 10px 20px; 
-        flex-direction: column;
-        align-items: center;
-
-    }
-    header h2{
-        font-size: 1.5rem;
-    }
-    nav a {
-        font-size: 0.9rem;
-        margin: 5px 10px;
-    }
-    
-    nav{
-        margin-top: 8px;
-    }
 }
     
+
 
 
 
