@@ -205,7 +205,171 @@ margin-bottom: 20px;
         align-items: center;
     }
     nav{
+    
         margin-top: 8px} 
+    /* حاوية المربعات */
+.contact-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* المسافة بين المربعات */
+    margin-top: 20px;
+}
+
+/* شكل المربعات المشتركة */
+.contact-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* المسافة بين الأيقونة والنص */
+    padding: 14px 25px;
+    border-radius: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* أيقونة داخل المربع */
+.contact-btn .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background: #fff; /* خلفية الأيقونة */
+    color: inherit;
+}
+
+/* الألوان لكل خدمة */
+.contact-btn.email {
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+    color: #fff;
+}
+
+.contact-btn.email .icon {
+    color: #f39c12;
+}
+
+.contact-btn.github {
+    background: linear-gradient(135deg, #333, #555);
+    color: #fff;
+}
+
+.contact-btn.github .icon {
+    color: #333;
+}
+
+.contact-btn.whatsapp {
+    background: linear-gradient(135deg, #25D366, #1ebe5d);
+    color: #fff;
+}
+
+.contact-btn.whatsapp .icon {
+    color: #25D366;
+}
+
+/* تأثير Hover على كل المربعات */
+.contact-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+/* متجاوب مع الموبايل */
+@media (max-width: 780px) {
+    .contact-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-btn {
+        width: 90%;
+        justify-content: center;
+    }
+    }/* حاوية المربعات */
+.contact-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* المسافة بين المربعات */
+    margin-top: 20px;
+}
+
+/* شكل المربعات المشتركة */
+.contact-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* المسافة بين الأيقونة والنص */
+    padding: 14px 25px;
+    border-radius: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* أيقونة داخل المربع */
+.contact-btn .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background: #fff; /* خلفية الأيقونة */
+    color: inherit;
+}
+
+/* الألوان لكل خدمة */
+.contact-btn.email {
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+    color: #fff;
+}
+
+.contact-btn.email .icon {
+    color: #f39c12;
+}
+
+.contact-btn.github {
+    background: linear-gradient(135deg, #333, #555);
+    color: #fff;
+}
+
+.contact-btn.github .icon {
+    color: #333;
+}
+
+.contact-btn.whatsapp {
+    background: linear-gradient(135deg, #25D366, #1ebe5d);
+    color: #fff;
+}
+
+.contact-btn.whatsapp .icon {
+    color: #25D366;
+}
+
+/* تأثير Hover على كل المربعات */
+.contact-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+/* متجاوب مع الموبايل */
+@media (max-width: 780px) {
+    .contact-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-btn {
+        width: 90%;
+        justify-content: center;
+    }
+    }
     @media (max-width:780px) {
     #contact p, #contact a {
         display: inline-flex;
@@ -215,6 +379,7 @@ margin-bottom: 20px;
     }
 }
     
+
 
 
 
