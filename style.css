@@ -156,14 +156,14 @@ margin-bottom: 20px;
     transition: color 0.3s;
 
 }
-#contact a :hover{
+#contact a:hover{
     color: #6c5ce7;
 }
 #contact i{
     color: #4da3ff;
     margin-right: 8px;
     font-size: 1.2rem;
-    vertical-align: middle;
+    vertical-align: middle;} 
 
 
 @media (max-width:780px) {
@@ -186,6 +186,7 @@ margin-bottom: 20px;
     }
 }
     
+
 
 
 
