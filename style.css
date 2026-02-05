@@ -164,7 +164,7 @@ display: flex;
   flex-direction: column; /* يخلي السطور فوق بعضها */
   align-items: center;    /* يوسط السطور في نص الشاشة */
   gap: 10px;              /* مسافة بين سطر الإيميل وسطر الجيت هاب */
-  padding: 20px;
+  padding:10px auto;
 }
 
 .contact-row {
@@ -224,6 +224,7 @@ display: flex;
 
 }
     
+
 
 
 
