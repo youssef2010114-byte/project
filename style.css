@@ -157,8 +157,10 @@ margin-bottom: 20px;
     color: #4da3ff;
     margin-right: 8px;
     font-size: 1.2rem;
-    vertical-align: middle;} 
-splay: flex;
+    vertical-align: middle;}
+
+#contact {
+display: flex;
   flex-direction: column; /* يخلي السطور فوق بعضها */
   align-items: center;    /* يوسط السطور في نص الشاشة */
   gap: 15px;              /* مسافة بين سطر الإيميل وسطر الجيت هاب */
@@ -222,6 +224,7 @@ splay: flex;
 
 }
     
+
 
 
 
